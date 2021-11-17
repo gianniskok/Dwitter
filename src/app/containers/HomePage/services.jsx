@@ -190,7 +190,8 @@ export function Services(props) {
     async function loadTweets() {
         if(typeof window.ethereum !== 'undefined' ){
             const provider = new ethers.providers.Web3Provider(window.ethereum);
-            const contract = new ethers.Contract(twitterAddress, Twitters.abi, provider);
+            const signer = new ethers.getSigner();
+            const contract = new ethers.Contract(twitterAddress, Twitters.abi, signer);
             const data = await contract.fetchTweets();
 
             const tweetsL = await Promise.all(data.map(async i => {
