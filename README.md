@@ -8,7 +8,7 @@
   - [x] User can follow/unfollow other users
   - [x] User sees his posts and his followings posts 
   - [x] User can like/dislike posts
-  - [x] User can see all other users profiles
+  - [x] User can see all other users profiles(likes posts, info)
   - [x] used ipfs for uploading tweets 
   - [ ] More to come
 
