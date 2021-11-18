@@ -19,7 +19,7 @@
 
 1. Clone the repo
 ```shel
-git clone https://github.com/gianniskok/yu-gi-oh-marketplace.git
+git clone https://github.com/gianniskok/Dwitter.git
 ```
 2. Go to my-app folder
 ```shel
